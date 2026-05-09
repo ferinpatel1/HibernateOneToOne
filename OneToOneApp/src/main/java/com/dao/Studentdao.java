@@ -33,13 +33,13 @@ public class Studentdao {
 		
 	}
 	
-//	public static List<EmployeeInfo> getAllStudent(){
-//		Session session = StudentUtils.createSession();
-//		List<EmployeeInfo> list=session.createQuery("from Student").list();
-//		session.close();
-//		return list;
-//		
-//	}
+	public static List<Employee> getAllEmployee(){
+		Session session = StudentUtils.createSession();
+		List<Employee> list=session.createQuery("from Employee").list();
+		session.close();
+		return list;
+		
+	}
 	
 //	public static Student getStudent(int id) {
 //		Session session=StudentUtils.createSession();

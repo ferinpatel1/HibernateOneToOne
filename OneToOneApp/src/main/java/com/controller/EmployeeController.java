@@ -34,6 +34,7 @@ public class EmployeeController extends HttpServlet {
 			e.setSalary(Double.parseDouble(request.getParameter("salary")));
 			e.setEinfo(ep);
 			Studentdao.insertEmployee(e);
+			response.sendRedirect("show.jsp");
 			
 			
 			

@@ -1,3 +1,4 @@
+<%@page import="com.bean.EmployeeInfo"%>
 <%@page import="com.bean.Employee"%>
 <%@page import="com.dao.Studentdao"%>
 
@@ -28,6 +29,7 @@
 	</tr>
 <%
 	List<Employee> list = Studentdao.getAllEmployee();
+
 	for(Employee s:list){
 	
 %>
@@ -40,6 +42,7 @@
 		<td><%=s.getEinfo().getMobile()%></td>
 		<td><%=s.getDid()%></td>
 		<td><%=s.getDname()%></td>
+		<td><%=s.getSalary() %></td>
 		
 		
 		<td>
