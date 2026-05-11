@@ -73,7 +73,25 @@ public class Studentdao {
 //	session.delete(s);
 //	tr.commit();
 //	session.close();
-//	
-//}
 	
+	//public static Student getStudent(int id) {
+//		Session session=StudentUtils.createSession();
+//		Student s=session.get(Student.class, id);
+//		session.close();
+//		return s;
+	//}
+	//
+	//public static void deleteStudent(int id) {
+//		Session session=StudentUtils.createSession();
+//		Transaction tr=session.beginTransaction();
+//		Student s=session.get(Student.class, id);
+//		session.delete(s);
+//		tr.commit();
+//		session.close();
+//	
+//
+	
+
 }
+	
+
